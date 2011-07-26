@@ -9,6 +9,7 @@ gem 'sqlite3', '1.3.3'
 
 group :development do
 	gem 'rspec-rails', '2.6.1'
+	gem 'annotate', '2.4.0'
 end
 
 group :test do
@@ -16,6 +17,8 @@ group :test do
 	gem 'webrat', '0.7.1'
 	gem 'spork', '0.9.0.rc8'
 end
+
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
